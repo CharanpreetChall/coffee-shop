@@ -1,0 +1,119 @@
+@use "./partials/global" as *;
+
+/* ---------------------- Start partial section ---------------------- */
+
+/* ---------------------- End of menu section ---------------------- */
+/* ---------------------- Start of title section ---------------------- */
+
+.menu {
+
+    /* ---------------------- Start of menu hero section ---------------------- */
+    &__hero{
+        width: $width-one;
+        margin: $margin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../assets/images/coffee-circle.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+    }
+
+    &__hero-heading {
+        text-align: center;
+        color: white;
+        position: relative;
+        bottom: 0.6rem;
+        right: 0.6rem;
+        width: 17.5rem;
+        border: 5px solid #5bacc3;
+        padding: 3.2rem 0;
+
+        &:active {
+            top: 0;
+            left: 0;
+        }
+
+        &:hover {
+           color: #5bacc3;
+        }
+    }
+
+    &__hero-border {
+        background-color: #393939;
+        width: 18rem;
+        height: 12rem;
+    }
+    /* ---------------------- End of menu hero section ---------------------- */
+    /* ---------------------- Start menu options section ---------------------- */
+
+    &__options {
+        height: 4rem;
+        background-color: #393939;
+        margin: -3rem auto 0;
+    }
+
+    &__options-list {
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    &__list-item {
+        border-left: 4px solid #5bacc3;
+        padding: 0 1.2rem;
+    }
+
+    &__list-link {
+        color: white;
+        font-size: 1.3rem;
+        
+        &:hover {
+            color: #5bacc3;
+         }
+    }
+
+    /* ---------------------- End of title section ---------------------- */
+    /* ---------------------- Start of menu section ---------------------- */
+    &__drinks {
+        text-align: center;
+    }
+
+    &__hot-drinks,
+    &__pastries {
+        background-color: #fff0ed;
+    }
+
+    &__cold-drinks {
+        background-color: #f7f7f7;
+    }
+
+    &__hot-drinks,
+    &__cold-drinks,
+    &__pastries {
+        padding: 1rem 0 4rem;
+    }
+
+    &__heading {
+        padding: 1.5rem 0 0.5rem;
+    }
+
+    &__item{
+        padding: 1.25rem 0 0.75rem;
+    }
+
+    &__description {
+        font-style: italic;
+        width: 40rem;
+        text-align: center;
+        margin: $margin;
+    }
+
+    &__price {
+        color: #5bacc3;
+        padding-bottom: 0%;
+    }
+}
+/* ---------------------- End of menu section ---------------------- */

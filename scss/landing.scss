@@ -1,0 +1,271 @@
+@use "./partials/global" as *;
+
+/* ---------------------- Start partial section ---------------------- */
+body {
+    background-color: $background-color;
+}
+/* ---------------------- End of menu section ---------------------- */
+/* ---------------------- Start of about card section ---------------------- */
+.about {
+    width: $width-two;
+    margin: 2rem auto;
+
+    &__hero {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__heading {
+        margin: 8rem 0 1.5rem;
+    }
+
+    &__details {
+        width: 23rem;
+    }
+
+    &__description {
+        margin-bottom: 2.5rem;
+    }
+
+    &__image {
+        width: 17rem;
+    }
+
+    &__button {
+        position: absolute;
+        background-color: #5bacc3;
+    }
+
+    &__button-text {
+        text-align: center;
+        padding: 0.9rem 0;
+        width: 9.5rem;
+        font-size: 1.1rem;
+        color: white;
+        position: relative;
+        border: 2px solid black;
+        top: -4px;
+        left: -4px;
+
+        &:hover {
+            top: 0;
+            left: 0;
+        }
+    }
+    /* ---------------------- End of about card section ---------------------- */
+    /* ---------------------- Start of products section ---------------------- */
+    &__product {
+        height: 44rem;
+        background-color: #f7f7f7;
+        padding-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &__product-list {
+        width: $width-two;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__product-card {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 19rem;
+        height: 24rem;
+        border-radius: 10px;
+        box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+        padding-top: 1rem;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    &__product-image {
+        width: 7.5rem;
+        padding: 1.2rem 0;
+    }
+
+    &__can-image {
+        width: 6.05rem;
+    }
+
+    &__cup-image {
+        width: 8.05rem;
+    }
+
+    &__product-details {
+        background-color: #fff0ed;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        padding: 2.5rem 0rem;
+    }
+
+    &__product-quantity {
+        color: #909090;
+        font-size: 1rem;
+    }
+
+    &__product-info {
+        text-align: left;
+        width: 70%;
+        padding-left: 0.8rem;
+    }
+
+    &__product-price {
+        font-size: 1.9rem;
+        color: #5bacc3;
+        text-align: right;
+        font-weight: bold;
+    }
+
+    &__product-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ---------------------- End of products section ---------------------- */
+    /* ----------------------  Start of learn more section ---------------------- */
+    &__learn {
+        background-color: white;
+        padding: 8.5rem 4.5rem 0;
+    }
+
+    &__learn-content {
+        width: $width-two;
+        margin: $margin;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__learn-container {
+        width: 28rem;
+        height: 16rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__learn-heading {
+        font-size: 3.4rem;
+    }
+
+    &__learn-details {
+        font-size: 1.05rem;
+    }
+
+    &__learn-icons {
+        width: 26rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__image-container {
+        background-image: url("../assets/images/coldbrewbackground.png");
+        background-size: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 20rem;
+        height: 19rem;
+    }
+
+    &__image-border {
+        width: 20rem;
+        height: 19rem;
+        position: relative;
+        bottom: 1rem;
+        right: 1rem;
+        border: 5px solid #5bacc3;
+    }
+
+    &__learn-image {
+        position: relative;
+        bottom: 18rem;
+        left: 5rem;
+        width: 8rem;
+
+        &:hover {
+            animation: spin 1s linear infinite;
+
+            @keyframes spin {
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        }
+    }
+
+    &__learn-icon {
+        width: 50px;
+    }
+    /* ---------------------- End of learn more section ---------------------- */
+    /* ----------------------  Start of discount section ---------------------- */
+    &__discount {
+        width: $width-two;
+        margin: $margin;
+        padding: 10rem 0 11rem;
+    }
+
+    &__discount-banner {
+        background-color: #393939;
+        font-size: 2.4rem;
+        color: white;
+        text-align: center;
+        padding: 2.3rem 0;
+        transition: 1s;
+
+        &:hover {
+            background-color: #5bacc3;
+        }
+    }
+    /* ----------------------  End of discount section ---------------------- */
+    /* ----------------------  Start of footer section ---------------------- */
+    &__footer {
+        overflow: hidden;
+        width: $width-one;
+        margin: $margin;
+        background-color: #fff0ed;
+        padding-top: 4rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__footer-details {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    &__footer-heading {
+        padding-bottom: 1rem;
+    }
+
+    &__footer-description {
+        font-size: 1.1rem;
+    }
+
+    &__footer-icon {
+        width: 2.8rem;
+    }
+
+    &__footer-icon-left,
+    &__footer-icon-right {
+        width: 100px;
+        opacity: 25%;
+    }
+
+    &__footer-icon-left {
+        margin: -4rem 0 10rem -1.5rem;
+    }
+
+    &__footer-icon-right {
+        margin: -2rem -2rem 0 0rem;
+    }
+}
+/* ----------------------  End of footer section ---------------------- */

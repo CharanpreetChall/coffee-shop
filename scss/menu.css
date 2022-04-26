@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #393939;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.16rem;
+}
+
+.nav {
+  width: 80rem;
+  margin: 0 auto;
+  padding: 1.2rem 0 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo {
+  flex-grow: 2;
+  margin-left: 2.5rem;
+}
+.nav__heading {
+  font-size: 3rem;
+  margin: 0;
+}
+.nav__list {
+  font-size: 1.3rem;
+}
+.nav__list-item {
+  margin-right: 2.5rem;
+}
+.nav__list-link {
+  color: #393939;
+}
+.nav__list-link:hover {
+  border-bottom: 1px solid #393939;
+}
+.nav__list-active {
+  color: #5bacc3;
+}
+.nav__brand, .nav__logo, .nav__heading,
+.nav .nav__list,
+.nav .nav__list-item {
+  display: inline-block;
+}
+.nav .nav__list-item--link-last {
+  color: #5bacc3;
+}
+
+a {
+  text-decoration: none;
+  color: #393939;
+  align-items: baseline;
+}
+
+li {
+  list-style: none;
+}
+
+/* ---------------------- Start partial section ---------------------- */
+/* ---------------------- End of menu section ---------------------- */
+/* ---------------------- Start of title section ---------------------- */
+.menu {
+  /* ---------------------- Start of menu hero section ---------------------- */
+  /* ---------------------- End of menu hero section ---------------------- */
+  /* ---------------------- Start menu options section ---------------------- */
+  /* ---------------------- End of title section ---------------------- */
+  /* ---------------------- Start of menu section ---------------------- */
+}
+.menu__hero {
+  width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/images/coffee-circle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+.menu__hero-heading {
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 0.6rem;
+  right: 0.6rem;
+  width: 17.5rem;
+  border: 5px solid #5bacc3;
+  padding: 3.2rem 0;
+}
+.menu__hero-heading:active {
+  top: 0;
+  left: 0;
+}
+.menu__hero-heading:hover {
+  color: #5bacc3;
+}
+.menu__hero-border {
+  background-color: #393939;
+  width: 18rem;
+  height: 12rem;
+}
+.menu__options {
+  height: 4rem;
+  background-color: #393939;
+  margin: -3rem auto 0;
+}
+.menu__options-list {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.menu__list-item {
+  border-left: 4px solid #5bacc3;
+  padding: 0 1.2rem;
+}
+.menu__list-link {
+  color: white;
+  font-size: 1.3rem;
+}
+.menu__list-link:hover {
+  color: #5bacc3;
+}
+.menu__drinks {
+  text-align: center;
+}
+.menu__hot-drinks, .menu__pastries {
+  background-color: #fff0ed;
+}
+.menu__cold-drinks {
+  background-color: #f7f7f7;
+}
+.menu__hot-drinks, .menu__cold-drinks, .menu__pastries {
+  padding: 1rem 0 4rem;
+}
+.menu__heading {
+  padding: 1.5rem 0 0.5rem;
+}
+.menu__item {
+  padding: 1.25rem 0 0.75rem;
+}
+.menu__description {
+  font-style: italic;
+  width: 40rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.menu__price {
+  color: #5bacc3;
+  padding-bottom: 0%;
+}
+
+/* ---------------------- End of menu section ---------------------- *//*# sourceMappingURL=menu.css.map */

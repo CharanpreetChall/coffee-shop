@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #393939;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.16rem;
+}
+
+.nav {
+  width: 80rem;
+  margin: 0 auto;
+  padding: 1.2rem 0 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo {
+  flex-grow: 2;
+  margin-left: 2.5rem;
+}
+.nav__heading {
+  font-size: 3rem;
+  margin: 0;
+}
+.nav__list {
+  font-size: 1.3rem;
+}
+.nav__list-item {
+  margin-right: 2.5rem;
+}
+.nav__list-link {
+  color: #393939;
+}
+.nav__list-link:hover {
+  border-bottom: 1px solid #393939;
+}
+.nav__list-active {
+  color: #5bacc3;
+}
+.nav__brand, .nav__logo, .nav__heading,
+.nav .nav__list,
+.nav .nav__list-item {
+  display: inline-block;
+}
+.nav .nav__list-item--link-last {
+  color: #5bacc3;
+}
+
+a {
+  text-decoration: none;
+  color: #393939;
+  align-items: baseline;
+}
+
+li {
+  list-style: none;
+}
+
+/* ---------------------- Start partial section ---------------------- */
+body {
+  background-color: #fff0ed;
+}
+
+/* ---------------------- End of menu section ---------------------- */
+/* ---------------------- Start of about card section ---------------------- */
+.about {
+  width: 65rem;
+  margin: 2rem auto;
+  /* ---------------------- End of about card section ---------------------- */
+  /* ---------------------- Start of products section ---------------------- */
+  /* ---------------------- End of products section ---------------------- */
+  /* ----------------------  Start of learn more section ---------------------- */
+  /* ---------------------- End of learn more section ---------------------- */
+  /* ----------------------  Start of discount section ---------------------- */
+  /* ----------------------  End of discount section ---------------------- */
+  /* ----------------------  Start of footer section ---------------------- */
+}
+.about__hero {
+  display: flex;
+  justify-content: space-between;
+}
+.about__heading {
+  margin: 8rem 0 1.5rem;
+}
+.about__details {
+  width: 23rem;
+}
+.about__description {
+  margin-bottom: 2.5rem;
+}
+.about__image {
+  width: 17rem;
+}
+.about__button {
+  position: absolute;
+  background-color: #5bacc3;
+}
+.about__button-text {
+  text-align: center;
+  padding: 0.9rem 0;
+  width: 9.5rem;
+  font-size: 1.1rem;
+  color: white;
+  position: relative;
+  border: 2px solid black;
+  top: -4px;
+  left: -4px;
+}
+.about__button-text:hover {
+  top: 0;
+  left: 0;
+}
+.about__product {
+  height: 44rem;
+  background-color: #f7f7f7;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about__product-list {
+  width: 65rem;
+  display: flex;
+  justify-content: space-between;
+}
+.about__product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 19rem;
+  height: 24rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  padding-top: 1rem;
+  align-items: center;
+  overflow: hidden;
+}
+.about__product-image {
+  width: 7.5rem;
+  padding: 1.2rem 0;
+}
+.about__can-image {
+  width: 6.05rem;
+}
+.about__cup-image {
+  width: 8.05rem;
+}
+.about__product-details {
+  background-color: #fff0ed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  padding: 2.5rem 0rem;
+}
+.about__product-quantity {
+  color: #909090;
+  font-size: 1rem;
+}
+.about__product-info {
+  text-align: left;
+  width: 70%;
+  padding-left: 0.8rem;
+}
+.about__product-price {
+  font-size: 1.9rem;
+  color: #5bacc3;
+  text-align: right;
+  font-weight: bold;
+}
+.about__product-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about__learn {
+  background-color: white;
+  padding: 8.5rem 4.5rem 0;
+}
+.about__learn-content {
+  width: 65rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.about__learn-container {
+  width: 28rem;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about__learn-heading {
+  font-size: 3.4rem;
+}
+.about__learn-details {
+  font-size: 1.05rem;
+}
+.about__learn-icons {
+  width: 26rem;
+  display: flex;
+  justify-content: space-between;
+}
+.about__image-container {
+  background-image: url("../assets/images/coldbrewbackground.png");
+  background-size: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20rem;
+  height: 19rem;
+}
+.about__image-border {
+  width: 20rem;
+  height: 19rem;
+  position: relative;
+  bottom: 1rem;
+  right: 1rem;
+  border: 5px solid #5bacc3;
+}
+.about__learn-image {
+  position: relative;
+  bottom: 18rem;
+  left: 5rem;
+  width: 8rem;
+}
+.about__learn-image:hover {
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+@-webkit-keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.about__learn-icon {
+  width: 50px;
+}
+.about__discount {
+  width: 65rem;
+  margin: 0 auto;
+  padding: 10rem 0 11rem;
+}
+.about__discount-banner {
+  background-color: #393939;
+  font-size: 2.4rem;
+  color: white;
+  text-align: center;
+  padding: 2.3rem 0;
+  transition: 1s;
+}
+.about__discount-banner:hover {
+  background-color: #5bacc3;
+}
+.about__footer {
+  overflow: hidden;
+  width: 80rem;
+  margin: 0 auto;
+  background-color: #fff0ed;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.about__footer-details {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.about__footer-heading {
+  padding-bottom: 1rem;
+}
+.about__footer-description {
+  font-size: 1.1rem;
+}
+.about__footer-icon {
+  width: 2.8rem;
+}
+.about__footer-icon-left, .about__footer-icon-right {
+  width: 100px;
+  opacity: 25%;
+}
+.about__footer-icon-left {
+  margin: -4rem 0 10rem -1.5rem;
+}
+.about__footer-icon-right {
+  margin: -2rem -2rem 0 0rem;
+}
+
+/* ----------------------  End of footer section ---------------------- *//*# sourceMappingURL=landing.css.map */

@@ -1,0 +1,107 @@
+$font-stack: "Open Sans";
+$font-weight: 400;
+$primary-color: #393939;
+$margin: 0 auto;
+$padding: 0;
+$background-color: #fff0ed;
+$width-one: 80rem;
+$width-two: 65rem ;
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: $font-stack;
+    font-weight: $font-weight;
+    color: $primary-color;
+    margin: $margin;
+    padding: $padding;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 3.75rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.16rem;
+}
+
+.nav {
+    width: $width-one;
+    margin: $margin;
+    padding: 1.2rem 0 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        flex-grow: 2;
+        margin-left: 2.5rem;
+    }
+
+    &__heading {
+        font-size: 3rem;
+        margin: 0;
+    }
+    
+    &__list {
+        font-size: 1.3rem;
+    }
+
+    &__list-item {
+        margin-right: 2.5rem;
+    }
+
+    &__list-link {
+        color: #393939;
+
+        &:hover {
+            border-bottom: 1px solid #393939;
+        }
+    }
+
+    &__list-active {
+        color: #5bacc3;
+    }
+
+    &__brand,
+    &__logo,
+    &__heading,
+    .nav__list,
+    .nav__list-item {
+        display: inline-block;
+    }
+
+    .nav__list-item--link-last {
+        color: #5bacc3;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #393939;
+    align-items: baseline;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
